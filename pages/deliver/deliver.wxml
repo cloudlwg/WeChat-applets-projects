@@ -1,0 +1,18 @@
+<image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529600700073&di=d85ae0ae7d72f0fb0bd7af41e7bd4f4f&imgtype=0&src=http%3A%2F%2Fimg1.dwstatic.com%2Fwww%2F1805%2F391709240675%2F1527754148458.jpg' class='bg'></image>
+<view class="container" style="width:90%;margin:0 auto;">
+  <view class="company">
+    <view class="title">快递公司：</view>
+    <!-- <picker bindchange="bindPickerChange" value="{{array[index]['id']}}" range="{{array}}" range-key="name"> -->
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" range-key="name">
+      <view class="picker" style="line-height: 50px;height: 50px;background: #ADD8E6;padding-left: 20px;font-size:18px;">
+       点击选择：{{array[index]['name']}}
+      </view>
+    </picker>
+  </view>
+  <view class="caseid">
+    <view class="title">你的快递单号：</view>
+    <input type="number" placeholder="请输入快递单号" bindinput="bindKeyInput" style="line-height: 50px;height: 50px;background: #ADD8E6;padding-left: 20px;font-size:18px;"/>
+  </view>
+  <button class='btn' size="{{primarySize}}"
+           bindtap="bindquery" style="margin-top:20px;"> 点击查询 </button>
+</view>

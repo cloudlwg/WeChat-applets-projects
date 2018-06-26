@@ -1,0 +1,62 @@
+{
+  "pages":[
+    "pages/more/more",
+    "pages/deliver/deliver",
+    "pages/weather/weather",
+    "pages/detail/detail",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/singer/singer",
+    "pages/singer-detail/singer-detail",
+    "pages/player/player",
+    "pages/search/search",
+    "pages/top-list/top-list",
+    "pages/words/words",
+    "pages/words/monthly/monthly",
+    "pages/words/detail/detail",
+     "pages/splash/splash",
+    "pages/daily/daily",
+    "pages/comment/comment",
+    "pages/detail_daily/detail_daily",
+    "pages/setting/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#87CEEB",
+    "navigationBarTitleText": "我的智能小背包",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#ffcd32",
+    "backgroundColor": "#008080",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "推荐",
+        "iconPath": "static/image/home-1.png",
+        "selectedIconPath": "static/image/home-2.png"
+      },
+      {
+        "pagePath": "pages/player/player",
+        "text": "正在播放",
+        "iconPath": "static/image/rank-1.png",
+        "selectedIconPath": "static/image/rank-2.png"
+      },
+      {
+        "pagePath": "pages/singer/singer",
+        "text": "歌手集",
+        "iconPath": "static/image/singer-1.png",
+        "selectedIconPath": "static/image/singer-2.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "小背包",
+        "iconPath": "static/image/my.png",
+        "selectedIconPath": "static/image/my-1.png"
+      }
+    ]
+  }
+
+}

@@ -1,0 +1,18 @@
+page{
+  background-color: #00FA9A;
+  background-image: url(https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3567569561,1026489916&fm=27&gp=0.jpg);
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+}
+
+
+.container{
+  background-color: rgba(138, 43, 226,0);
+  background-size: 50%;
+  
+}
+.btn{
+  background-color: rgba(175, 238, 238, 0);
+  color: #000;
+}

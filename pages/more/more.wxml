@@ -1,0 +1,16 @@
+
+
+<view class="container" style="width:50%;margin:20rpx auto;">
+
+ <button class='btn' size="{{primarySize}}"
+           bindtap="binddeliver" style="margin-top:20px;"> 快递100 </button>
+  <button class='btn' size="{{primarySize}}"
+           bindtap="bindweather" style="margin-top:20px;"> 今日天气 </button>
+
+   <button class='btn' size="{{primarySize}}"
+           bindtap="bindwords" style="margin-top:20px;"> 图文妙语 </button>
+
+    <button class='btn' size="{{primarySize}}"
+           bindtap="binddaily" style="margin-top:20px;"> 看日报吧 </button>
+
+</view>

@@ -1,0 +1,81 @@
+page{
+  background-color: #87CEFA;
+}
+
+
+.w{
+  color: white;
+}
+.b{
+  font-weight: bold;
+}
+ 
+.l{
+  border: 1rpx solid #fff;
+}
+ 
+.center{
+  text-align: center;
+  margin: auto 0;
+}
+ 
+.hor{
+  display: flex;
+}
+ 
+.f50{
+  font-size: 50rpx;
+}
+ 
+/**index css**/
+ 
+ 
+.bg {
+  width: 100%;
+  height: 700rpx;
+}
+ 
+.temp{
+  font-size: 170rpx;
+}
+ 
+.container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 700rpx;
+  display: block;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529600412524&di=ae853b46eab99b33b66cbc3217b25ac7&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01297b554c04e2000001bf7261913b.jpg);
+}
+ 
+.nowWeather{
+  padding: 60rpx;
+}
+ 
+.weahterDetail{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+}
+ 
+.forcast{
+  padding: 30rpx;
+  margin-left: 16rpx;
+  margin-right: 16rpx;
+  border-bottom: 1rpx solid #eee;
+  justify-content: space-around;
+}
+ 
+.img{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 16rpx;
+}
+.detail{
+  background-color: #87CEFA;
+}
